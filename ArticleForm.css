@@ -1,0 +1,74 @@
+.articleHeader h2{
+    /* background-color: aqua; */
+    margin: 5px;
+}
+
+.title{
+    width: 100%;
+}
+.title label{
+    margin: 5px;
+}
+
+
+.title input{
+    width: 50%;
+}
+
+.Abstract label{
+    display: block;
+    margin: 5px;
+}
+.Abstract input{
+    height: 50px;
+    width: 70%;
+    margin: 5px;
+}
+
+.Article label{
+    margin: 5px;
+    display:block;
+}
+
+.Article textarea{
+    /* margin: 10px; */
+    width: 70%;
+    height: 200px;
+}
+.articleHeader h2{ 
+    background-color: aliceblue;
+}
+
+.Article input{
+    width: 70.3%;
+    height: 150px;
+    margin: 5px;
+}
+
+.Tag label{
+    display: block;
+    margin: 5px;
+}
+
+.Tag input{
+    height: 15px;
+    width: 100%;
+    margin: 5px;
+}
+
+.Button{
+    display: block;
+    width: 10%;
+    margin: 6px;
+    margin-bottom: 20px;
+    margin-left: auto; 
+    float: right;
+}
+.Button :hover{
+   background-color: brown;
+}
+
+.img h2{
+    background-color: aliceblue;
+    margin:5px;
+}

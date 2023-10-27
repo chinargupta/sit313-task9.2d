@@ -1,0 +1,73 @@
+/* Add this CSS to your styles.css or a separate .css file */
+.card {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    height: 5%;
+  }
+  
+  .card:hover {
+    transform: translateY(-3px);
+    background-color: rgb(172, 179, 213);
+  }
+  
+  .filter {
+    margin-bottom: 16px;
+    margin-left: 10px;
+  }
+  
+  .filter h5{
+    margin: 2px;
+  }
+  
+  .newQuestion {
+    margin-bottom: 16px;
+    margin-left: 10px;
+  }
+  
+  .addNewQuestionHearder h1{
+    background-color: aliceblue;
+    margin-left: 10px;
+  }
+  
+  .newQuestion h5{
+    margin:2px
+  }
+  
+  
+  button {
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:active {
+    background-color: #003f80;
+    transform: translateY(2px);
+    
+  
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="text"]:focus {
+    outline: none;
+    border-color: #007bff;
+    background-color: azure;
+  }

@@ -1,0 +1,22 @@
+/* Center align the container for all the boxes */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* This centers the content vertically in the viewport */
+}
+
+/* Apply these styles to all boxes within the container */
+.container .title,
+.container .Abstract,
+.container .Article,
+.container .Tag,
+.container .Button {
+    margin: 10px; /* Adjust the margin as needed */
+}
+
+/* Apply hover effect to the buttons */
+.container .Button:hover {
+    background-color: brown;
+}

@@ -1,0 +1,12 @@
+.header{
+    margin: 10px;
+}
+ .header button{
+    margin: 10px;
+    background-color: rgb(238, 245, 245);
+    border-radius: 50px;
+ }
+
+ .header button:active{
+    background-color: rgba(81, 132, 132, 0.792);
+ }
